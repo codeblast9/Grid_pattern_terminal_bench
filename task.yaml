@@ -1,0 +1,15 @@
+version: 0.1.0
+type: programming
+name: grid-pattern-transform
+description: >
+  Transform the 2x2 input grid into a 6x6 output grid following the pattern shown 
+  in the examples provided in `/app/examples.py`.
+  
+  The solver should implement the `solve` function in a file called 
+  `/app/grid_transform.py`. The function will be imported as a module by the test script.
+
+  Input: A 2x2 list of integers (0-9).
+  Output: A 6x6 list of integers.
+
+environment:
+  image: terminal
